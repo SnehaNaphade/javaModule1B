@@ -6,7 +6,7 @@ charges 0.50 $US. Calculate Pooja's account balance after an attempted transacti
 public class ATM {
     public static void main(String[] args)
     {
-        double x=120,y=120,c;
+        double x=30,y=120,c;
         if (x % 5 == 0 && y >= x + 0.5){
             c = y - (x + 0.5);
             System.out.println("Account balance:" +c);
